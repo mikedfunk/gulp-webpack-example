@@ -14,15 +14,15 @@
 
 	gulp.task('webpack', function (callback) {
 		webpack(webpackOptions, function (error, stats) {
-			// if error...
+			// if error do something here such as gutil error
 			callback();
 		});
 	});
 
 	gulp.task('serve', function (callback) {
 		var compiler = webpack(webpackOptions);
-		var server = new WebpackDevServer(compiler, webpackOptions.devServer);
-		server.listen(8080, function () {});
+		new WebpackDevServer(compiler, webpackOptions.devServer)
+			.listen(8090, 'localhost', function () {});
 	});
 
 	gulp.task('watch', function (callback) {

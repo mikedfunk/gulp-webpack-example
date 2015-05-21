@@ -4,6 +4,8 @@
   module.exports = {
     entry: './app.js',
     output: {
+      // path is required or the dev server will break
+      path: "/",
       filename: 'bundle.js'
     },
     module: {
@@ -15,8 +17,10 @@
       extensions: ['', '.js', '.jsx']
     },
     devServer: {
-      contentBase: "./",
-      hot: true
+      hot: true,
+      stats: {
+        colors: true
+      }
     }
   };
   
