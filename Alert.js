@@ -1,3 +1,9 @@
-module.exports = {
-  alert: alert
-};
+(function () {
+  'use strict';
+
+  module.exports = {
+    alert: function (input) {
+      alert(input);
+    }
+  };
+}());

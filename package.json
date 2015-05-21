@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jsx-loader": "^0.13.2",
     "lodash": "^3.9.1",
     "node-libs-browser": "^0.5.0",
-    "webpack": "^1.9.7"
+    "react": "^0.13.3",
+    "webpack": "^1.9.7",
+    "webpack-dev-server": "^1.8.2"
   }
 }
