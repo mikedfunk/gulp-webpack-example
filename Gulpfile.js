@@ -12,7 +12,7 @@
 		]
 	};
 
-	gulp.task('webpack', function (callback) {
+	gulp.task('build', function (callback) {
 		webpack(webpackOptions, function (error, stats) {
 			// if error do something here such as gutil error
 			callback();
@@ -26,7 +26,7 @@
 	});
 
 	gulp.task('watch', function (callback) {
-		gulp.watch(paths.js, ['webpack']);
+		gulp.watch(paths.js, ['build']);
 	});
 
 	gulp.task('default', ['serve']);
