@@ -8,7 +8,7 @@ Very simple example of using gulp and webpack together.
 3. `./node_modules/.bin/gulp build` to just build the js
 4. `./node_modules/.bin/webpack` to build without gulp
 5. `./node_modules/.bin/webpack --watch` to watch for changes without gulp
-6. `./node_modules/.bin/webpack-dev-server --hot` to run the webpack dev server without gulp
+6. `./node_modules/.bin/webpack-dev-server --port=8090 --hot` to run the webpack dev server without gulp
 
 ## How to use in another project
 

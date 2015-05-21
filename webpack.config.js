@@ -10,7 +10,7 @@
     },
     module: {
       loaders: [
-      { test: /\.jsx$/, loader: "jsx-loader" }
+        { test: /\.jsx$/, loader: "jsx-loader" }
       ]
     },
     resolve: {

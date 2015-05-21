@@ -3,6 +3,7 @@
 
   var React = require('react');
 
+  // nothing special, just make sure react jsx works
   module.exports = React.createClass({
     render: function () {
       return(
