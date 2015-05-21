@@ -28,6 +28,6 @@ Very simple example of using gulp and webpack together.
 
 ### With Gulp
 1. Add a `Gulpfile.js`
-2. Check [this gulpfile]() for an example of serve, build, and watch tasks
+2. Check [this gulpfile](https://github.com/mikedfunk/gulp-webpack-example/blob/master/Gulpfile.js) for an example of serve, build, and watch tasks
 
 The only reason to use Gulp in front of webpack is to be able to stream it to other processes. If you need to do this you'll probably need to rewrite the task a bit. This example skips that possibility.
